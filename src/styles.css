@@ -1,0 +1,12 @@
+/* You can add global styles to this file, and also import other style files */
+.bg-black {
+    background-color: black;
+}
+
+.text-white {
+    color: white;
+}
+
+.topbar-button {
+    padding: 10px;
+}
