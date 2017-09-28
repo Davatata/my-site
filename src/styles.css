@@ -10,3 +10,15 @@
 .topbar-button {
     padding: 10px;
 }
+
+.content-background {
+    height: calc(100vh - 52px);
+    position: relative;
+    text-align: center;
+    width: 100%;
+    min-height: 350px;
+    background-color: black;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}

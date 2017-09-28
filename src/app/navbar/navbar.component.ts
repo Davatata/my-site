@@ -18,4 +18,9 @@ export class NavbarComponent implements OnInit {
     this.isOpen = this.isOpen === "" ? "in" : "";
   }
 
+  closeDropdown() {
+    if(this.isOpen === "in") {
+      this.isOpen = "";
+    }
+  }
 }
