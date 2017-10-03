@@ -11,6 +11,10 @@
     padding: 10px;
 }
 
+.dark-gray {
+    color: darkgray;
+}
+
 .content-background {
     height: calc(100vh - 52px);
     position: relative;
@@ -18,6 +22,17 @@
     width: 100%;
     min-height: 350px;
     background-color: black;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.experience-background {
+    height: 100vh;
+    position: relative;
+    text-align: center;
+    width: 100%;
+    min-height: 350px;
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;

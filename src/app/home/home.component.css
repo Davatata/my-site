@@ -20,8 +20,26 @@
     }
 }
 
-
-
 .home-content {
     margin-top: 20%;
+}
+
+.experience-item {
+    padding: 20px 40px;
+    font-weight: 700;
+}
+
+.experience-icon {
+    font-size: 8em;  
+    padding: 10px 0;
+}
+
+.experience-header {
+    margin: 20px 0;
+}
+
+.experience-info {
+    color:darkgray; 
+    font-weight: 100;
+    padding: 0 20px;
 }
