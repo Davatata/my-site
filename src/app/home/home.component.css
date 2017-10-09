@@ -11,7 +11,7 @@
         font-weight: 700;
     }
     #homeButton {
-        display: none;
+        margin-top: 10% !important;
     }
 }
 @media screen and (max-width: 550px) {
@@ -75,20 +75,4 @@
 #homeButton:hover {
     background-color: cornflowerblue;
     color: black;
-}
-
-.home-footer {
-    background-color: #101010;
-    clear: both;
-    height: 25vh;
-    width: 100%;
-
-}
-
-.footer-row {
-    margin-top: 20px;
-}
-
-.footer-anchor {
-    margin: 0 20px;
 }

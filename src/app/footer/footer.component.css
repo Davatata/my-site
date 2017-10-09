@@ -1,0 +1,16 @@
+
+.home-footer {
+    background-color: #101010;
+    clear: both;
+    height: 25vh;
+    width: 100%;
+
+}
+
+.footer-row {
+    margin-top: 20px;
+}
+
+.footer-anchor {
+    margin: 0 20px;
+}
