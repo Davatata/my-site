@@ -11,7 +11,7 @@
         font-weight: 700;
     }
     #homeButton {
-        margin-top: 10% !important;
+        margin-top: 7% !important;
     }
 }
 @media screen and (max-width: 550px) {
@@ -20,10 +20,13 @@
         font-size: 2.5em;
         font-weight: 700;
     }
+    .home-content {
+        margin-top: 20% !important;
+    }
 }
 
 .home-content {
-    margin-top: 17%;
+    margin-top: 5%;
 }
 
 .experience-row {
@@ -68,12 +71,13 @@
     border-radius: 30px;
     margin-top: 40%;
     padding: 7px 40px;
-    -webkit-transition: background-color 0.5s, color 0.5s; /* For Safari 3.1 to 6.0 */
-    transition: background-color 0.5s, color 0.5s;
+    -webkit-transition: background-color 0.5s, color 0.5s, padding 0.5s; /* For Safari 3.1 to 6.0 */
+    transition: background-color 0.5s, color 0.5s, padding 0.5s
 }
 
 #homeButton:hover {
     background-color: rgba(255,255,255,0.8);
     color: black;
+    padding: 7px 60px;
 }
 
