@@ -30,7 +30,7 @@ export class HomeComponent implements OnInit {
           } else {
             this.innerCurly.pop();
           }
-        }, 200);
+        }, 100);
     }, 4000);
   }
 
