@@ -9,7 +9,7 @@
     .about-text {        
         font-size: 3.5em;
         font-weight: 700;
-        margin: 20px;
+        margin: 20px 0;
     }
 }
 @media screen and (max-width: 900px) {
@@ -20,9 +20,13 @@
     .about-text {    
         font-size: 2em;
         font-weight: 700;
-        margin: 20px;
+        margin: 20px 0;
     }
     .about-content {
         margin-top: 20% !important;
     }
+}
+
+.row {
+    margin: 0;
 }

@@ -15,6 +15,10 @@
     color: darkgray;
 }
 
+.gray-background {
+    background-color: gray;
+}
+
 .content-background {
     height: calc(100vh - 52px);
     position: relative;

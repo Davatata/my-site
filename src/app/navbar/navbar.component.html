@@ -9,7 +9,10 @@
             </button>
             <span class="navbar-brand brand-name">DT</span>
         </div>
-        <div class="navbar-collapse collapse" [class.in]="isOpen" id="navbarCollapse" aria-expanded="false">
+        <div class="navbar-collapse collapse"
+             [ngClass]="{in : isOpen === 'in'}"
+             id="navbarCollapse" 
+             aria-expanded="false">
             <ul class="nav navbar-nav">
                 <li routerLinkActive="active"
                     [routerLinkActiveOptions]="{exact: true}">
