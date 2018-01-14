@@ -7,9 +7,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomeComponent implements OnInit {
 
-  words = ['code', 'build', 'create', 'innovate'];
+  words:string[] = ['code', 'build', 'create', 'innovate'];
   innerCurly:string[] = ['c','o','d','e'];
-  wordOrder = 0;
+  wordOrder:number = 0;
 
   constructor() { }
 

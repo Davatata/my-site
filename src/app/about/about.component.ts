@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./about.component.css']
 })
 export class AboutComponent implements OnInit {
-  aboutMe = `
+  aboutMe:string = `
     I'm an aspiring web developer that's currently learning Angular 4.
     I want to build single page applications that are reactive and intuitive.`;
 
