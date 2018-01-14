@@ -13,6 +13,11 @@
     #homeButton {
         margin-top: 7% !important;
     }
+    .experience-info {
+        color:darkgray; 
+        font-weight: 100;
+        padding: 0 20% 5%;
+    }
 }
 @media screen and (max-width: 550px) {
     .home-text {
@@ -22,6 +27,11 @@
     }
     .home-content {
         margin-top: 20% !important;
+    }
+    .experience-info {
+        color:darkgray; 
+        font-weight: 100;
+        padding: 0 20px 20px;
     }
 }
 
@@ -55,11 +65,7 @@
     font-weight: 700;
 }
 
-.experience-info {
-    color:darkgray; 
-    font-weight: 100;
-    padding: 0 20px 20px;
-}
+
 
 #homeButton {
     font-size: 1em;
@@ -72,7 +78,8 @@
     margin-top: 40%;
     padding: 7px 40px;
     -webkit-transition: background-color 0.5s, color 0.5s, padding 0.5s; /* For Safari 3.1 to 6.0 */
-    transition: background-color 0.5s, color 0.5s, padding 0.5s
+    transition: background-color 0.5s, color 0.5s, padding 0.5s;
+    outline: none;
 }
 
 #homeButton:hover {

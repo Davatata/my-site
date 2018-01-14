@@ -1,7 +1,7 @@
 .home-footer {
     background-color: #101010;
     clear: both;
-    height: 25vh;
+    padding-bottom: 40px;
     max-height: 200px;
     width: 100%;
 }
@@ -12,4 +12,5 @@
 
 .footer-anchor {
     margin: 0 20px;
+    text-decoration: none;
 }
