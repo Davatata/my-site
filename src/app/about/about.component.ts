@@ -7,8 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AboutComponent implements OnInit {
   aboutMe:string = `
-    I'm an aspiring web developer that's currently learning Angular 4.
-    I want to build single page applications that are reactive and intuitive.`;
+    I'm an aspiring web developer that's currently learning Angular.
+    I want to build single page applications that are responsive and user friendly.`;
 
   constructor() { }
 

@@ -1,7 +1,4 @@
 @media screen and (min-width: 550px) {
-    .img-background {
-        background-image: url("/assets/nasa-earth.jpg");
-    }
     .home-container {
         padding: 0 40px;
     }
@@ -19,7 +16,9 @@
         padding: 0 20% 5%;
     }
 }
+
 @media screen and (max-width: 550px) {
+    
     .home-text {
         color: white;
         font-size: 2.5em;
@@ -65,15 +64,13 @@
     font-weight: 700;
 }
 
-
-
 #homeButton {
     font-size: 1em;
     font-weight: 700;
     background-color: rgba(0, 0, 0, 0.5);
     color: white;
     border-color: cornflowerblue;
-    border: 4px solid cornflowerblue;
+    border: 2px solid cornflowerblue;
     border-radius: 30px;
     margin-top: 40%;
     padding: 7px 40px;
@@ -91,4 +88,8 @@
 #myTools {
     background-color: black;
     color: white;
+}
+
+.img-background {
+    background-image: url("/assets/nasa-earth.jpg");
 }
