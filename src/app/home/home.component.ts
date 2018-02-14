@@ -6,8 +6,6 @@ import { Component, OnInit, style } from '@angular/core';
   styleUrls: ['./home.component.css']
 })
 export class HomeComponent implements OnInit {
-  
-  testColor = "cornflowerblue";
   words: string[] = ['code', 'build', 'create', 'innovate'];
   innerCurly: string[] = ['c','o','d','e'];
   wordOrder: number = 0;
