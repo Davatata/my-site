@@ -37,7 +37,7 @@ export class HomeComponent implements OnInit {
       image: "../../assets/bootstrap.png",
       style: {"width":"120px", "height":"120px"},
       header: "Bootstrap", 
-      text: "For styling purposes, Bootstrap is my choice since it is one of the most used framework for building responsive mobile-first sites."},
+      text: "For styling purposes, Bootstrap is my choice since it is one of the most used frameworks for building responsive mobile-first sites."},
     { 
       image: "../../assets/typescript.png",
       style: {"width":"120px", "height":"120px", "padding": "15px"},

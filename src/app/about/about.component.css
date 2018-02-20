@@ -68,3 +68,24 @@
     margin: 20px 0;
     font-weight: 700;
 }
+
+.project-link {
+    color: black;
+}
+
+.project-image {
+    border-radius: 25px;
+    padding: 25% 0 25% 0;
+    font-size: 2em;
+    text-align: center;
+    color: white;
+    -webkit-transition: opacity 0.5s ease-out, color 0.51s ease-out;
+    -moz-transition: opacity 0.5s ease-out, color 0.5s ease-out;
+    -o-transition: opacity 0.5s ease-out, color 0.5s ease-out;
+    transition: opacity 0.5s ease-out, color 0.5s ease-out;
+}
+
+.project-image:hover {
+    opacity: 0.5;
+    color: black;
+}
