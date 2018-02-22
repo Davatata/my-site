@@ -3,9 +3,7 @@
         padding: 0 40px;
     }
     .home-text {
-        color:white;
         font-size: 4.5em;
-        font-weight: 700;
     }
     #homeButton {
         margin-top: 7% !important;
@@ -20,9 +18,7 @@
 @media screen and (max-width: 550px) {
     
     .home-text {
-        color: white;
         font-size: 2.5em;
-        font-weight: 700;
     }
     .home-content {
         margin-top: 20% !important;
@@ -92,4 +88,9 @@
 
 .img-background {
     background-image: url("/assets/nasa-earth.jpg");
+}
+
+.home-text {
+    color:white;
+    font-weight: 700;
 }

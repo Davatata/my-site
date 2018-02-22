@@ -27,6 +27,9 @@
         font-weight: 700;
         margin: 20px 0;
     }
+    .project-image {
+        margin: auto;
+    }
     
 }
 @media screen and (max-width: 900px) {
