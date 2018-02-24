@@ -32,7 +32,7 @@ export class HomeComponent implements OnInit {
       image: "../../assets/angular.png",
       style: {"width":"120px", "height":"120px"},
       header: "Angular", 
-      text: "Angular is one of the most popular front-end frameworks in the market at the moment. It's simple and effective in developing single page applications."},
+      text: "Angular is one of the most popular front-end frameworks in the market at the moment. It's complex but effective in developing single page applications."},
     { 
       image: "../../assets/bootstrap.png",
       style: {"width":"120px", "height":"120px"},
@@ -42,7 +42,7 @@ export class HomeComponent implements OnInit {
       image: "../../assets/typescript.png",
       style: {"width":"120px", "height":"120px", "padding": "15px"},
       header: "TypeScript", 
-      text: "TypeScript is an improvement on the JavaScript language and is the language of choice for working in the Angular environment."}
+      text: "TypeScript is a superset of JavaScript and is the language of choice for working in the Angular environment."}
   ];
 
   constructor() { }
