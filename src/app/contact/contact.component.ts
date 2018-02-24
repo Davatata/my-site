@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { NgForm } from "@angular/forms";
 
 @Component({
   selector: 'app-contact',
@@ -6,10 +7,25 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./contact.component.css']
 })
 export class ContactComponent implements OnInit {
+  invalid = true;
+  submitted = false;
+  contact = {
+    name: '',
+    email: '',
+    message: ''
+  }
+
+  // regex grabbed from => https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/email
+  emailRegex: RegExp = /^[a-zA-Z0-9.!#$%&'*+\/=?^_`{|}~-]+@[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?(?:\.[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?)*$/;
 
   constructor() { }
 
   ngOnInit() {
   }
 
+  onSubmit(f:NgForm) {
+    let data = f.value;
+    console.log({name: data.name, email: data.email, message: data.message});
+    this.submitted = true;
+  }
 }
