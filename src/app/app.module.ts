@@ -3,8 +3,8 @@ import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from "@angular/router";
 import { FormsModule }   from '@angular/forms';
 
-import { AngularFireModule } from 'angularfire2';
-import { AngularFireDatabaseModule } from 'angularfire2/database';
+// import { AngularFireModule } from 'angularfire2';
+// import { AngularFireDatabaseModule } from 'angularfire2/database';
 import { environment } from '../environments/environment';
 
 import { AppComponent } from './app.component';
@@ -37,8 +37,8 @@ const appRoutes: Routes = [
   imports: [
     BrowserModule,
     FormsModule,
-    AngularFireModule.initializeApp(environment.firebase, 'portfolio-site'),
-    AngularFireDatabaseModule,
+    // AngularFireModule.initializeApp(environment.firebase, 'portfolio-site'),
+    // AngularFireDatabaseModule,
     RouterModule.forRoot(appRoutes)
   ],
   providers: [HttpService],
