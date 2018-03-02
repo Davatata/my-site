@@ -11,20 +11,20 @@ export class HomeComponent implements OnInit {
   wordOrder: number = 0;
   experienceItems: experienceItem[] = [
     { 
-      icon: "fa-html5",
+      icon: "fa-book",
       color: "orange", 
-      header: "HTML5", 
-      text: "I use the newest version of HTML to keep up with the always evolving web standard so I can bring simple and clean pages to viewers."},
+      header: "Learning", 
+      text: "I am constantly learning and searching for new ways to solve programming problems. I put this site together using some of what I learned from an Angular 2+ course and plan to learn more."},
     { 
-      icon: "fa-css3",
+      icon: "fa-diamond",
       color: "cornflowerblue", 
-      header: "CSS3", 
-      text: "I've created UI's using popular CSS frameworks such as Foundation and Bootstrap. I strive for a smooth and clean experience."},
+      header: "Improving", 
+      text: "I try to improve my skills as well as aquire new ones. I strive to hone my abilities to continually make better and cleaner websites."},
     { 
-      icon: "fa-code",
+      icon: "fa-wrench",
       color: "lightcoral", 
-      header: "JavaScript", 
-      text: "I'm creating pages using the newest versions of JavaScript. Coding all future pages with the Angular 4+ framework is a priority."}
+      header: "Building", 
+      text: "I feel the best way to improve a skill is to apply it. I build and create web pages not just for the joy of it, but to better myself and my craft."}
   ];
 
   toolItems: toolItem[] = [
@@ -42,7 +42,7 @@ export class HomeComponent implements OnInit {
       image: "../../assets/typescript.png",
       style: {"width":"120px", "height":"120px", "padding": "15px"},
       header: "TypeScript", 
-      text: "TypeScript is a superset of JavaScript and is essential for building Angular applications."}
+      text: "TypeScript is a superset of JavaScript and is essential for building Angular applications. Although I enjoy JavaScript, TypeScript allows for cleaner and more understandable code."}
   ];
 
   constructor() { }
