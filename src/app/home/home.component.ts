@@ -14,7 +14,7 @@ export class HomeComponent implements OnInit {
       icon: "fa-book",
       color: "orange", 
       header: "Learning", 
-      text: "I am constantly learning and searching for new ways to solve programming problems. I put this site together using some of what I learned from an Angular 2+ course and plan to learn more."},
+      text: "I am constantly learning and searching for new ways to solve programming problems. I put this site together using some of what I learned from an Angular course and plan to learn more."},
     { 
       icon: "fa-diamond",
       color: "cornflowerblue", 
