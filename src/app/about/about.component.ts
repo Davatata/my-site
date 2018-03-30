@@ -29,12 +29,19 @@ export class AboutComponent implements OnInit {
       link: 'https://rawgit.com/Davatata/Mine-Finder/master/Mine_finder.html',
       colors: 'gray'
     },
+    // {
+    //   image: '',
+    //   title: 'Belot Score Tracker',
+    //   body: 'This app allows users who play 32-card Bridge (Belot) to keep track of their game score.',
+    //   link: 'http://davatata.github.io/Belot-Score-Tracker/',
+    //   colors: 'seagreen'
+    // }
     {
       image: '',
-      title: 'Belot Score Tracker',
-      body: 'This app allows users who play 32-card Bridge (Belot) to keep track of their game score.',
-      link: 'http://davatata.github.io/Belot-Score-Tracker/',
-      colors: 'seagreen'
+      title: 'Dauntless Overwatch',
+      body: 'Overwatch players can input battletags and get current data on Overwatch accounts including current Competitive and QuickPlay stats.',
+      link: 'https://dauntless-overwatch.herokuapp.com/',
+      colors: 'rgb(226, 144, 24)'
     }
   ];
 
