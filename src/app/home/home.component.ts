@@ -7,7 +7,8 @@ import { Component, OnInit, style } from '@angular/core';
 })
 export class HomeComponent implements OnInit {
   words: string[] = ['code', 'build', 'create', 'innovate'];
-  innerCurly: string[] = ['c','o','d','e'];
+  // innerCurly: string[] = ['c','o','d','e'];
+  innerCurly: string = 'create';
   wordOrder: number = 0;
   experienceItems: experienceItem[] = [
     { 
@@ -45,27 +46,36 @@ export class HomeComponent implements OnInit {
       text: "TypeScript is a superset of JavaScript and is essential for building Angular applications. Although I enjoy JavaScript, TypeScript allows for cleaner and more understandable code."}
   ];
 
+  dynamicWords = {
+    'background-color': 'transparent'
+  };
+
   constructor() { }
 
   ngOnInit() {
-    let wordChange = setInterval(() => {
-        this.wordOrder = this.wordOrder + 1 >= this.words.length ? 0 : this.wordOrder + 1; // 1
-        let word = this.words[this.wordOrder].split('');  // ['b','u','i','l','d']
-        let cleared = false;
-        let timer = setInterval(() => {
-          if(this.innerCurly.length === 0 && !cleared) {
-            cleared = true;
-          } else if(cleared) {
-            this.innerCurly.push(word.shift());
-            if(word.length === 0) {
-              cleared = false;
-              clearInterval(timer);
-            }
-          } else {
-            this.innerCurly.pop();
-          }
-        }, 100);
-    }, 4000);
+    // let wordChange = setInterval(() => {
+    //     this.wordOrder = this.wordOrder + 1 >= this.words.length ? 0 : this.wordOrder + 1; // 1
+    //     let word = this.words[this.wordOrder].split('');  // ['b','u','i','l','d']
+    //     let cleared = false;
+    //     let timer = setInterval(() => {
+    //       if(this.innerCurly.length === 0 && !cleared) {
+    //         cleared = true;
+    //       } else if(cleared) {
+    //         this.innerCurly.push(word.shift());
+    //         if(word.length === 0) {
+    //           cleared = false;
+    //           clearInterval(timer);
+    //         }
+    //       } else {
+    //         this.innerCurly.pop();
+    //       }
+    //     }, 100);
+    // }, 4000);
+    // let wordHighlight = setInterval(() => {
+    //   this.wordOrder = this.wordOrder + 1 >= this.words.length ? 0 : this.wordOrder + 1; // 1
+    //   let word = this.words[this.wordOrder];  // 'build'
+    //     this.innerCurly = this.words[this.wordOrder];
+    // }, 4000);
   }
 
 }
