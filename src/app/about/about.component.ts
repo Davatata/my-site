@@ -40,7 +40,7 @@ export class AboutComponent implements OnInit {
       image: '',
       title: 'Dauntless Overwatch',
       body: 'Overwatch players can input battletags and get current data on Overwatch accounts including current Competitive and QuickPlay stats.',
-      link: 'https://dauntless-overwatch.firebaseapp.com/',
+      link: 'https://dauntless-overwatch.firebaseapp.com/?battletag=Shauntdh-1451',
       colors: 'rgb(226, 144, 24)'
     }
   ];
