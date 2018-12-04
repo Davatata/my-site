@@ -6,21 +6,21 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./about.component.css']
 })
 export class AboutComponent implements OnInit {
-  aboutMe:string = `
+  aboutMe = `
     I'm an aspiring web developer that's currently learning Angular.
     I want to build front end applications that are responsive and user friendly.`;
-  moreAboutMe:string = `
+  moreAboutMe = `
     I am inspired by science and technology. Space fascinates me to the point where
-    I will stop and stare at the night sky. I wonder how I can contribute to the world as a programmer and 
+    I will stop and stare at the night sky. I wonder how I can contribute to the world as a programmer and
     am just putting one footer in front of the other.`;
 
-  projects:any[] = [
+  projects: any[] = [
     {
       image: '',
-      title: 'Netflux',
-      body: 'Netflux is a project I made because I usually found myself wondering what movies and shows are coming to or leaving Netflix soon.',
-      link: 'https://rawgit.com/Davatata/netflux/master/index.html#',
-      colors: '#ea5454'
+      title: 'Heroes In Training',
+      body: 'A site where users can upload their Overwatch character designs to share with the world.',
+      link: 'https://heroes-in-training.firebaseapp.com/home',
+      colors: '#2f3543'
     },
     {
       image: '',
@@ -38,11 +38,11 @@ export class AboutComponent implements OnInit {
     // }
     {
       image: '',
-      title: 'Dauntless Overwatch',
-      body: 'Overwatch players can input battletags and get current data on Overwatch accounts including current Competitive and QuickPlay stats.',
-      link: 'https://dauntless-overwatch.firebaseapp.com/?battletag=Shauntdh-1451',
-      colors: 'rgb(226, 144, 24)'
-    }
+      title: 'Netflux',
+      body: 'Netflux is a project I made because I usually found myself wondering what movies and shows are coming to or leaving Netflix soon.',
+      link: 'https://rawgit.com/Davatata/netflux/master/index.html#',
+      colors: '#ea5454'
+    },
   ];
 
   constructor() { }

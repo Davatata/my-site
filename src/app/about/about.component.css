@@ -22,7 +22,7 @@
     .about-container {
         padding: 0 40px;
     }
-    .about-title {        
+    .about-title {
         font-size: 3.5em;
         font-weight: 700;
         margin: 20px 0;
@@ -30,7 +30,7 @@
     .project-image {
         margin: auto;
     }
-    
+
 }
 @media screen and (max-width: 900px) {
     #about-container {
@@ -42,7 +42,7 @@
         width: 200px;
         height: 200px;
     }
-    .about-title {    
+    .about-title {
         font-size: 2em;
         font-weight: 700;
         margin: 20px 0;
@@ -57,8 +57,8 @@
 }
 
 .about-text {
-    padding: 30px 0; 
-    font-size: 1.3em; 
+    padding: 30px 0;
+    font-size: 1.3em;
     text-align: center;
 }
 
@@ -82,10 +82,10 @@
     font-size: 2em;
     text-align: center;
     color: white;
-    -webkit-transition: opacity 0.7s ease-out, color 0.51s ease-out;
-    -moz-transition: opacity 0.7s ease-out, color 0.5s ease-out;
-    -o-transition: opacity 0.7s ease-out, color 0.5s ease-out;
-    transition: opacity 0.7s ease-out, color 0.5s ease-out;
+    -webkit-transition: opacity 0.3s ease-out, color 0.3s ease-out;
+    -moz-transition: opacity 0.3s ease-out, color 0.3s ease-out;
+    -o-transition: opacity 0.3s ease-out, color 0.3s ease-out;
+    transition: opacity 0.3s ease-out, color 0.3s ease-out;
 }
 
 .project-image:hover {
