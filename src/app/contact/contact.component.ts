@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-import { NgForm } from "@angular/forms";
+import { NgForm } from '@angular/forms';
 
-import { HttpService } from "./../http.service";
+import { HttpService } from './../http.service';
 
 @Component({
   selector: 'app-contact',
@@ -15,19 +15,19 @@ export class ContactComponent implements OnInit {
     name: '',
     email: '',
     message: ''
-  }
+  };
 
   // regex grabbed from => https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/email
   emailRegex: RegExp = /^[a-zA-Z0-9.!#$%&'*+\/=?^_`{|}~-]+@[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?(?:\.[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?)*$/;
 
-  constructor(private httpService:HttpService) { 
+  constructor(private httpService: HttpService) {
     this.submitted = this.httpService.submitted;
   }
 
   ngOnInit() {
   }
 
-  onSubmit(f:NgForm) {
+  onSubmit(f: NgForm) {
     this.submitted = true;
     this.httpService.addMessage(f.value);
   }

@@ -1,3 +1,7 @@
 .brand-name, .brand-name :hover {
     color: #9d9d9d !important;
 }
+
+.in {
+  display: block !important;
+}

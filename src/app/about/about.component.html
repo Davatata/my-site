@@ -2,7 +2,7 @@
 
   <div class="row">
     <div class="col-xs-12 about-title text-center">
-      <div style="padding: 20px 0; font-size: 1.3em; text-align: center;">
+      <div style="padding: 20px 0;">
         <span>About Me</span>
       </div>
     </div>
@@ -11,7 +11,7 @@
   <div id="aboutMe">
     <div class="row" style="padding: 15px 0 15px;">
       <div class="col-xs-12 col-sm-4 text-center">
-        <img class="about-img img-circle" src="/assets/me.jpg" alt="Me">
+        <img class="about-img rounded-circle" src="/assets/me.jpg" alt="Me">
       </div>
       <div class="about-text col-xs-12 col-sm-6 col-sm-push-1">
         <p>{{aboutMe}}</p>
@@ -24,13 +24,13 @@
   </div>
 
   <div class="row" style="padding: 15px 0 15px">
-    <div class="col-xs-12 text-center">
-      <p class="about-title">Projects</p>
+    <div class="col-xs-12 text-center about-title">
+      <p class="">Projects</p>
     </div>
   </div>
 
   <div class="row projects-row">
-    <div *ngFor="let project of projects" class="col-xs-12 col-sm-4 col-md-4 text-center">
+    <div *ngFor="let project of projects" class="col-xs-12 col-sm-4 col-md-4">
       <!-- <a href="{{project.link}}" target="_blank"><img class="about-img" src="{{project.title}}" alt="Project"></a> -->
       <!-- <div> -->
         <a href="{{project.link}}" target="_blank" style="text-decoration: none;">
