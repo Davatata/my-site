@@ -14,3 +14,12 @@
     margin: 0 20px;
     text-decoration: none;
 }
+
+.light-blue {
+  color: #90c3f9;
+}
+
+i:hover {
+  color: aliceblue;
+  transform: scale(1.2);
+}
