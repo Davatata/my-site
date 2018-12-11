@@ -9,6 +9,21 @@
   </div>
 
   <div id="aboutMe">
+    <div class="about-grid-container">
+      <div class="about-grid-item">
+        <img class="about-img rounded-circle" src="/assets/me.jpg" alt="Me">
+      </div>
+      <div class="about-grid-item">
+        <p>{{aboutMe}}</p>
+        <p>I am inspired by science and technology. Space fascinates me to the point where
+          I will stop and stare at the night sky. I wonder how I can contribute to the world as a programmer and
+          am just putting one footer in front of the other.</p>
+      </div>
+    </div>
+    <hr class="about-divider">
+  </div>
+
+  <!-- <div id="aboutMe">
     <div class="row" style="padding: 15px 0 15px;">
       <div class="col-xs-12 col-sm-4 text-center">
         <img class="about-img rounded-circle" src="/assets/me.jpg" alt="Me">
@@ -21,7 +36,7 @@
       </div>
     </div>
     <hr class="about-divider">
-  </div>
+  </div> -->
 
   <div class="row" style="padding: 15px 0 15px">
     <div class="col-xs-12 text-center about-title">
@@ -29,16 +44,22 @@
     </div>
   </div>
 
-  <div class="row projects-row">
+  <!-- <div class="row projects-row">
     <div *ngFor="let project of projects" class="col-xs-12 col-sm-4 col-md-4">
-      <!-- <a href="{{project.link}}" target="_blank"><img class="about-img" src="{{project.title}}" alt="Project"></a> -->
-      <!-- <div> -->
-        <a href="{{project.link}}" target="_blank" style="text-decoration: none;">
-          <p class="project-image" [style.background]="project.colors"><b>{{project.title}}</b></p>
-        </a>
-      <!-- </div> -->
-      <!-- <h3 class="about-header">{{project.title}}</h3> -->
+      <a href="{{project.link}}" target="_blank" style="text-decoration: none;">
+        <p class="project-image" [style.background]="project.colors"><b>{{project.title}}</b></p>
+      </a>
+      <p class="about-text">{{project.body}}</p>
+    </div>
+  </div> -->
+
+  <div class="about-grid-container-projects">
+    <div *ngFor="let project of projects" class="about-grid-item" style="margin:0;">
+      <a href="{{project.link}}" target="_blank" style="text-decoration: none;">
+        <p class="project-image" [style.background]="project.colors"><b>{{project.title}}</b></p>
+      </a>
       <p class="about-text">{{project.body}}</p>
     </div>
   </div>
+
 </div>

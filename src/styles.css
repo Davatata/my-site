@@ -46,3 +46,7 @@
   /* text-align: center !important; */
   margin: auto;
 }
+
+.bg-dark {
+  background-color: #222222 !important;
+}

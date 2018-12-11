@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AboutComponent implements OnInit {
   aboutMe = `
-    I'm an aspiring web developer that's currently learning Angular.
+    I'm a web developer that's currently working on Angular.
     I want to build front end applications that are responsive and user friendly.`;
   moreAboutMe = `
     I am inspired by science and technology. Space fascinates me to the point where
@@ -25,7 +25,8 @@ export class AboutComponent implements OnInit {
     {
       image: '',
       title: 'Mine Finder',
-      body: 'What began as a small school project grew into a game I find myself playing every so often. Originally it was just a Minesweeper copy but I later added additional features like a solver.',
+      body: `What began as a small school project grew into a game I find myself playing every so often.
+        Originally it was just a Minesweeper copy but I later added additional features like a solver.`,
       link: 'https://rawgit.com/Davatata/Mine-Finder/master/Mine_finder.html',
       colors: 'gray'
     },
@@ -39,7 +40,8 @@ export class AboutComponent implements OnInit {
     {
       image: '',
       title: 'Netflux',
-      body: 'Netflux is a project I made because I usually found myself wondering what movies and shows are coming to or leaving Netflix soon.',
+      body: `Netflux is a project I made because I usually found myself wondering what
+        movies and shows are coming to or leaving Netflix soon.`,
       link: 'https://rawgit.com/Davatata/netflux/master/index.html#',
       colors: '#ea5454'
     },
