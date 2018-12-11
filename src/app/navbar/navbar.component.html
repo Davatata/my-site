@@ -1,4 +1,34 @@
-<nav class="navbar navbar-inverse" style="border-radius:0; margin:0;">
+<nav class="navbar navbar-expand-md navbar-dark bg-dark">
+  <a class="navbar-brand" routerLink="/">DT</a>
+  <button class="navbar-toggler"
+          (click)="toggleOpen()"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarCollapse"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse"
+       id="navbarCollapse"
+       [ngClass]="{in : isOpen === 'in'}"
+       aria-expanded="false">
+    <ul class="navbar-nav">
+      <li routerLinkActive="active"
+        class="nav-item"
+        [routerLinkActiveOptions]="{exact: true}">
+        <a routerLink="/" (click)="closeDropdown()" class="nav-link">Home</a>
+      </li>
+      <li routerLinkActive="active"
+        class="nav-item">
+        <a routerLink="/about" (click)="closeDropdown()" class="nav-link">About</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+<!-- <nav class="navbar navbar-inverse" style="border-radius:0; margin:0;">
     <div class="container-fluid">
         <div class="navbar-header">
             <button type="button" class="navbar-toggle collapsed" (click)="toggleOpen()" data-toggle="collapse" data-target="navbarCollapse" aria-expanded="false">
@@ -11,7 +41,7 @@
         </div>
         <div class="navbar-collapse collapse"
              [ngClass]="{in : isOpen === 'in'}"
-             id="navbarCollapse" 
+             id="navbarCollapse"
              aria-expanded="false">
             <ul class="nav navbar-nav">
                 <li routerLinkActive="active"
@@ -21,10 +51,7 @@
                 <li routerLinkActive="active">
                     <a routerLink="/about" (click)="closeDropdown()">About</a>
                 </li>
-                <!-- <li routerLinkActive="active">
-                    <a routerLink="/contact" (click)="closeDropdown()">Contact</a>
-                </li> -->
             </ul>
         </div>
     </div>
-</nav>
+</nav> -->

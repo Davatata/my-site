@@ -9,7 +9,7 @@
         margin-top: 7% !important;
     }
     .home-content {
-        margin-top: 15% !important;
+        padding-top: 11% !important;
     }
     .experience-info {
         padding: 0 20% 5%;
@@ -17,20 +17,24 @@
 }
 
 @media screen and (max-width: 550px) {
-    
+
     .home-text {
         font-size: 2.5em;
     }
     .home-content {
-        margin-top: 50% !important;
+        padding-top: 50% !important;
     }
     .experience-info {
         padding: 0 20px 20px;
     }
 }
 
+.home-content {
+    font-size: large;
+}
+
 .experience-row {
-    margin: 40px 10px;
+    padding: 40px 0;
 }
 
 .experience-item {
@@ -39,13 +43,13 @@
 }
 
 .experience-icon {
-    font-size: 6em;  
+    font-size: 6em;
     padding: 10px 0;
 }
 
 @media screen and (min-width: 550px) {
     .experience-icon {
-        font-size: 8em;  
+        font-size: 8em;
         padding: 10px 0;
     }
 }
@@ -94,3 +98,28 @@
     color:darkgray;
     font-weight: bold;
 }
+
+/* css from https://codepen.io/geoffgraham/pen/jrWwWM */
+.dynamicWords {
+    display: inline-flex;
+    color: #fff;
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid gray; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    animation:
+      /* typing 4s steps(6, end) infinite, */
+      blink-caret 1s step-end infinite;
+  }
+
+  /* The typing effect */
+  @keyframes typing {
+    from, to { width: 0 }
+    50% { width: 30% }
+  }
+
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: white }
+  }

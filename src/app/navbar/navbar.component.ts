@@ -7,20 +7,20 @@ import { Component, OnInit } from '@angular/core';
 })
 export class NavbarComponent implements OnInit {
 
-  isOpen = "";
+  isOpen = '';
 
   constructor() { }
 
   ngOnInit() {
   }
-  
+
   toggleOpen() {
-    this.isOpen = this.isOpen === "" ? "in" : "";
+    this.isOpen = this.isOpen === '' ? 'in' : '';
   }
 
   closeDropdown() {
-    if(this.isOpen === "in") {
-      this.isOpen = "";
+    if (this.isOpen === 'in') {
+      this.isOpen = '';
     }
   }
 }
