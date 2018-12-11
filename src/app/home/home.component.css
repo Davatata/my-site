@@ -1,3 +1,15 @@
+@media screen and (min-width: 1000px) {
+  .home-content {
+    padding-top: 5% !important;
+  }
+}
+
+@media screen and (min-width: 550px) and (max-width: 999px) {
+  .home-content {
+    padding-top: 11% !important;
+  }
+}
+
 @media screen and (min-width: 550px) {
     .home-container {
         padding: 0 40px;
@@ -7,9 +19,6 @@
     }
     #homeButton {
         margin-top: 7% !important;
-    }
-    .home-content {
-        padding-top: 11% !important;
     }
     .experience-info {
         padding: 0 20% 5%;
