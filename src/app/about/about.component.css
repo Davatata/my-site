@@ -1,14 +1,4 @@
 @media screen and (min-width: 900px) {
-    /* #about-container  {
-        background-image: url("./../../assets/pexels.jpg");
-        background-image: url("./../../assets/blank-vs.png");
-        background-image: url("./../../assets/yuriy.jpg");
-        background-image: url("./../../assets/spacex.jpg");
-        background-image: url("./../../assets/thomas-griesbeck-149034.jpg");
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-        background-size: 100% 100%;
-    } */
     #about-container {
         background-color: #eeeeee;
         height: 100%;
@@ -129,4 +119,9 @@
 
 #aboutMe {
   padding-right: 4em;
+}
+
+.project-items {
+  margin: 0 auto;
+  max-width: 400px;
 }

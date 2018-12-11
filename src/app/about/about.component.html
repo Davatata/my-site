@@ -54,7 +54,7 @@
   </div> -->
 
   <div class="about-grid-container-projects">
-    <div *ngFor="let project of projects" class="about-grid-item" style="margin:0;">
+    <div *ngFor="let project of projects" class="about-grid-item project-items">
       <a href="{{project.link}}" target="_blank" style="text-decoration: none;">
         <p class="project-image" [style.background]="project.colors"><b>{{project.title}}</b></p>
       </a>
