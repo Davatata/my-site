@@ -8,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class AboutComponent implements OnInit {
   aboutMe = `
     I'm a web developer that's currently working on Angular.
-    I want to build front end applications that are responsive and user friendly.`;
+    I build front end applications that are responsive and user friendly.`;
   moreAboutMe = `
     I am inspired by science and technology. Space fascinates me to the point where
     I will stop and stare at the night sky. I wonder how I can contribute to the world as a programmer and
