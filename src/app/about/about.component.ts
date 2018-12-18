@@ -30,21 +30,22 @@ export class AboutComponent implements OnInit {
       link: 'https://rawgit.com/Davatata/Mine-Finder/master/Mine_finder.html',
       colors: 'gray'
     },
-    // {
-    //   image: '',
-    //   title: 'Belot Score Tracker',
-    //   body: 'This app allows users who play 32-card Bridge (Belot) to keep track of their game score.',
-    //   link: 'http://davatata.github.io/Belot-Score-Tracker/',
-    //   colors: 'seagreen'
-    // }
     {
       image: '',
-      title: 'Netflux',
-      body: `Netflux is a project I made because I usually found myself wondering what
-        movies and shows are coming to or leaving Netflix soon.`,
-      link: 'https://rawgit.com/Davatata/netflux/master/index.html#',
-      colors: '#ea5454'
+      title: 'NG Belot Tracker',
+      body: `This app allows users who play 32-card Bridge (Belot) to keep track of their game scores.
+        Users can also edit or delete past games from their list.`,
+      link: 'https://belot-tracker.firebaseapp.com',
+      colors: '#3f51b5'
     },
+    // {
+    //   image: '',
+    //   title: 'Netflux',
+    //   body: `Netflux is a project I made because I usually found myself wondering what
+    //     movies and shows are coming to or leaving Netflix soon.`,
+    //   link: 'https://rawgit.com/Davatata/netflux/master/index.html#',
+    //   colors: '#ea5454'
+    // },
   ];
 
   constructor() { }
